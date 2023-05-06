@@ -2,3 +2,22 @@ site_name: My Docs
 
 theme:
   name: 'material'
+  features:
+    - header.autohide
+
+nav:
+  - 嗨~: index.md
+
+  - 读感:
+      嫌疑人X的献身: 读感/嫌疑人X的献身.md
+      白鸟与蝙蝠: 读感/白鸟与蝙蝠.md
+      恶意: 读感/恶意.md
+  - 盗作:
+      Sea and Sand: 盗作/Sea and Sand.md
+      With You: 盗作/With You.md
+  - 言葉: 言葉/言葉.md
+
+
+
+
+
