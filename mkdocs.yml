@@ -7,6 +7,8 @@ theme:
   name: 'material'
   features:
     - header.autohide
+    - navigation.tabs
+    - navigation.top
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -23,17 +25,46 @@ theme:
         icon: material/weather-night
         name: 切换到明色
 
-nav:
-  - 嗨~: index.md
+extra:
+  analytics:
+    feedback:
+      title: 今天天气怎么样呢？
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: 很喜欢
+          data: 1
+          note: >-
+            心儿也要放晴哦
+        - icon: material/emoticon-sad-outline
+          name: 很讨厌
+          data: 0
+          note: >- 
+            但愿熏风和雨滴能拂去你所有的悲伤
+            
 
-  - 读感:
-      嫌疑人X的献身: 读感/嫌疑人X的献身.md
-      白鸟与蝙蝠: 读感/白鸟与蝙蝠.md
-      恶意: 读感/恶意.md
-  - 盗作:
-      Sea and Sand: 盗作/Sea and Sand.md
-      With You: 盗作/With You.md
-  - 言葉: 言葉/言葉.md
+nav:
+  - lemon:
+      - 嗨~: index.md
+      - 读感:
+          嫌疑人X的献身: lemon/读感/嫌疑人X的献身.md
+          白鸟与蝙蝠: lemon/读感/白鸟与蝙蝠.md
+          恶意: lemon/读感/恶意.md
+      - 盗作:
+          Sea and Sand: lemon/盗作/Sea and Sand.md
+          With You: lemon/盗作/With You.md
+      - 言葉: lemon/言葉/言葉.md
+  - 附言:
+      -所以我放弃了音乐:
+        Amy的信件: 附言/所以我放弃了音乐/Amy的信件.md
+        Amy的日记: 附言/所以我放弃了音乐/Amy的日记.md
+      -Elma:
+        Elma的专辑印象: 附言/Elma/Elma的专辑印象.md
+        Elma的日记: 附言/Elma/Elma的日记.md
+      -月上漫步:
+        开花的青蛙: 附言/月上漫步/开花的青蛙.md
+        独白: 附言/月上漫步/独白.md
+        白雪中的独白: 附言/月上漫步/白雪中的独白.md
+
 
 
 
